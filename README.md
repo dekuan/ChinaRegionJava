@@ -3,7 +3,7 @@
 
 
 ## 数据来源
-【国家统计局】全国统计用区划代码和城乡划分代码
+[国家统计局]全国统计用区划代码和城乡划分代码
 http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2020/index.html
 
 ## 使用方法
