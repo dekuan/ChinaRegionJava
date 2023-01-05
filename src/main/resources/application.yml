@@ -1,0 +1,41 @@
+########################################
+# TomCat
+server:
+    port: 2023
+
+
+spring:
+    # SERVLET
+    servlet:
+        multipart:
+            #   FILE UPLOAD
+            enabled: true
+            location: ${java.io.tmpdir}
+            max-file-size: 10MB
+            max-request-size: 10MB
+
+    # MVC
+    mvc:
+        throw-exception-if-no-handler-found: true
+
+    #   jackson
+    jackson:
+        #   Date format string or a fully-qualified date format class name. For instance, 'yyyy-MM-dd HH:mm:ss'
+        date-format: "yyyy-MM-dd HH:mm:ss.SSS"
+
+        #   Locale used for formatting
+        time-zone: "GMT+8"
+
+
+# logging
+logging:
+    level:
+        com: DEBUG
+
+
+#
+# APP CONFIG
+#
+app:
+    #   timezone
+    timezone: Asia/Shanghai
